@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.Centraliza {
+    @apply flex ; 
+}
+.Father {
+   @apply flex justify-center items-center h-[100vh] bg-slate-600; 
+}
+.LeftSide{
+    @apply flex flex-col justify-center mr-20;
+}
+.RightSide{
+    @apply  justify-center grid grid-cols-4 gap-2;
+}
+.Logo-LS{
+    @apply w-[320px] h-[100px];
+}
+
